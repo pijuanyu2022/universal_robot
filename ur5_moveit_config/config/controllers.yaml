@@ -1,0 +1,22 @@
+controller_list:
+  - name: "/Robot_Group"
+    action_ns: UR51/follow_joint_trajectory
+    type: FollowJointTrajectory
+    joints:
+      - UR51/shoulder_pan_joint
+      - UR51/shoulder_lift_joint
+      - UR51/elbow_joint
+      - UR51/wrist_1_joint
+      - UR51/wrist_2_joint
+      - UR51/wrist_3_joint
+
+  - name: "/Robot_Group"
+    action_ns: UR52/follow_joint_trajectory
+    type: FollowJointTrajectory
+    joints:
+      - UR52/shoulder_pan_joint
+      - UR52/shoulder_lift_joint
+      - UR52/elbow_joint
+      - UR52/wrist_1_joint
+      - UR52/wrist_2_joint
+      - UR52/wrist_3_joint
